@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8" />
+	<title>Service Web Test</title>
+        <meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="vendor/config.js"></script>
+    	<link rel="stylesheet" type="text/css" href="css/pure-min.css" />
+	<style>
+        .button-error {
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            background: rgb(202, 60, 60);
+        }
+        body{
+        	margin: 1em;
+        }
+    </style>
+    </head>
+    <body>
+    	<!-- App view -->
+    	<div id="mainViewHeader" >
+            <img src="carqueryapi/config/png/512/ios7-rewind.png" onclick="window.history.back()" width="22dpi" height="22dpi" style="float:left">
+            <img src="carqueryapi/config/png/512/ios7-fastforward.png" onclick="window.history.forward()" width="22dpi" height="22dpi" style="float:right">
+            <h2><center>Car Search</center></h2>
+        </div>  
+        <div id="mainViewContent">
+            <p>Loading...</p>
+        </div>
+	    <!-- End of app view -->
+        <script type="text/javascript" src="vendor/RestLib_v0.0.1a.js"></script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<h2>Choose Your Model</h2>       
+<div class="pure-g">
+  <div class="pure-u-1-16">
+      <img src="carqueryapi/config/CarLogos/audi.png" width="42dpi" height="42dpi" onclick="submitCar('audi')" />
+      </div>
+      <img src="carqueryapi/config/CarLogos/bmw.png" width="42dpi" height="42dpi" onclick="submitCar('bmw')" />
+      <img src="carqueryapi/config/CarLogos/chevrolet.png" width="42dpi" height="42dpi" onclick="submitCar('chevrolet')" />
+      <img src="carqueryapi/config/CarLogos/citroen.png" width="42dpi" height="42dpi" onclick="submitCar('citroen')" />
+      <img src="carqueryapi/config/CarLogos/dacia.png" width="42dpi" height="42dpi" onclick="submitCar('dacia')" />
+      <img src="carqueryapi/config/CarLogos/ferrari.png" width="42dpi" height="42dpi" onclick="submitCar('ferrari')" />
+      <img src="carqueryapi/config/CarLogos/fiat.png" width="42dpi" height="42dpi" onclick="submitCar('fiat')" />
+      <img src="carqueryapi/config/CarLogos/ford.png" width="42dpi" height="42dpi" onclick="submitCar('ford')" />
+      <img src="carqueryapi/config/CarLogos/hyundai.png" width="42dpi" height="42dpi" onclick="submitCar('hyundai')" />
+      <img src="carqueryapi/config/CarLogos/kia.png" width="42dpi" height="42dpi" onclick="submitCar('kia')" />
+      <img src="carqueryapi/config/CarLogos/mercedes.png" width="42dpi" height="42dpi" onclick="submitCar('mercedes-benz')" />
+      <img src="carqueryapi/config/CarLogos/peugeot.png" width="42dpi" height="42dpi" onclick="submitCar('peugeot')" />
+      <img src="carqueryapi/config/CarLogos/renault.png" width="42dpi" height="42dpi" onclick="submitCar('Renault')" />
+      <img src="carqueryapi/config/CarLogos/subaru.png" width="42dpi" height="42dpi" onclick="submitCar('subaru')" />
+      <img src="carqueryapi/config/CarLogos/toyota.png" width="42dpi" height="42dpi" onclick="submitCar('toyota')" />
+      <img src="carqueryapi/config/CarLogos/volvo.png" width="42dpi" height="42dpi" onclick="submitCar('volvo')" />
+  </div>
+<hr />
+<div>
+  <h2>Or Search</h2>
+  <form class="pure-form">
+      <input type="text" id="name_car" placeholder="Your model car  " /><br />
+      <input type="text" id="year_car" placeholder="Years   " /><br />
+      <input type="button" onclick="submitCar(document.getElementById('name_car').value, document.getElementById('year_car').value);" value="Search" class="pure-button pure-button-primary" /> <br />
+  </form>
+</div>
